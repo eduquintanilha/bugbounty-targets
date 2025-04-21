@@ -1,105 +1,71 @@
 [
     {
-        "handle": "louis-vuitton-malletier-public-bug-bounty-program",
+        "handle": "swiss-post",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://[it | fr | us | sg | \u2026].louisvuitton.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "http://api.louisvuitton.com/eco-eu/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://api.louisvuitton.com/eco-as/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://api.louisvuitton.com/eco-us/*",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
                     "type": "other"
                 },
                 {
-                    "identifier": "Domains where GovTech is the registrar",
-                    "type": "other"
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
         }
     },
     {
-        "handle": "yes-we-hack",
+        "handle": "bug-bounty-sncf-connect-1",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://yeswehack.com",
+                    "identifier": "https://www.sncf-connect.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://api.yeswehack.com",
+                    "identifier": "https://sncf-connect.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https//monidentifiant.sncf",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.sncf-connect.com/bff",
                     "type": "api"
-                },
-                {
-                    "identifier": "https://apps.yeswehack.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.yeswehack.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "salt-mobile-sa-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://my.salt.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://eshop.salt.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://login.salt.ch",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "decathlon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -238,6 +204,134 @@
                 {
                     "identifier": "*.vfsai.com",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "openpgp-js-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Security Vulnerability in OpenPGP.js's high-level API",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Security Vulnerability in the OpenPGP Standard",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Interoperability Issue in OpenPGP.js",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "louis-vuitton-malletier-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://[it | fr | us | sg | \u2026].louisvuitton.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "http://api.louisvuitton.com/eco-eu/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://api.louisvuitton.com/eco-as/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://api.louisvuitton.com/eco-us/*",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "yes-we-hack",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://yeswehack.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.yeswehack.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://apps.yeswehack.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.yeswehack.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "salt-mobile-sa-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://my.salt.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://eshop.salt.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://login.salt.ch",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "decathlon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -479,52 +573,6 @@
                 },
                 {
                     "identifier": "*.jbl.com.br",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
                     "type": "web-application"
                 }
             ],
@@ -1766,32 +1814,6 @@
         }
     },
     {
-        "handle": "bug-bounty-sncf-connect-1",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.sncf-connect.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://sncf-connect.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https//monidentifiant.sncf",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.sncf-connect.com/bff",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "atg-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -2863,28 +2885,6 @@
                 },
                 {
                     "identifier": "systemd-ask-password",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "openpgp-js-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Security Vulnerability in OpenPGP.js's high-level API",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Security Vulnerability in the OpenPGP Standard",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Interoperability Issue in OpenPGP.js",
                     "type": "other"
                 }
             ],
