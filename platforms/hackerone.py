@@ -1,12 +1,11 @@
 from config import API
 from typing import List
-from urllib.parse import urlparse, urlencode, parse_qs, urlunparse
+from urllib.parse import urlparse, parse_qs
 
 class HackerOneAPI(API):
     def __init__(self, username: str, token: str) -> None:
         """
         Initialize a new HackerOneAPI object with the given API credentials.
-
         Args:
             username (str): HackerOne API username.
             token (str): HackerOne API token.
@@ -22,44 +21,49 @@ class HackerOneAPI(API):
     def paginate(self, endpoint: str) -> List[dict]:
         """
         Retrieve all paginated results from the given API endpoint.
-
         Args:
             endpoint (str): The API endpoint to request.
-
         Returns:
             List[dict]: A list of dictionaries representing the response JSON for each page.
         """
         results = []
-        params = {
-            'page[size]': 100
-        }
-
+        params = {'page[size]': 100}
+        
+        # Garantir que endpoint tem a URL completa
+        if not endpoint.startswith('http'):
+            endpoint = f"{self.base_url}{endpoint}"
+        
         while True:
             response_json = self.get(endpoint, params=params)
             results.append(response_json)
-
-            if 'next' in response_json['links']:
-                endpoint = response_json['links']['next']
+            
+            # Verifica se tem próxima página
+            if 'links' in response_json and 'next' in response_json['links']:
+                next_url = response_json['links']['next']
+                
+                # Parse da URL completa para extrair endpoint e params
+                parsed = urlparse(next_url)
+                endpoint = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+                params = {k: v[0] for k, v in parse_qs(parsed.query).items()}
             else:
                 break
-
+        
         return results
 
     def program_info(self, scope: str) -> dict:
         """
         Gathering information of a scope with the HackerOne API.
-
         Args:
             scope (str): HackerOne program scope handle.
-
         Returns:
             dict: A dictionary representing the response JSON for scope information.
         """
         data = []
-        for structured_scope in self.paginate(f"{self.base_url}/v1/hackers/programs/{scope}/structured_scopes"):
+        endpoint = f"{self.base_url}/v1/hackers/programs/{scope}/structured_scopes"
+        
+        for structured_scope in self.paginate(endpoint):
             if 'data' in structured_scope:
                 data.extend(structured_scope['data'])
-
         return {"relationships": {"structured_scopes": {"data": data}}}
 
     def brief(self, results: dict) -> dict:
