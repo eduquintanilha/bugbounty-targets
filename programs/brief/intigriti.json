@@ -51,6 +51,20 @@
         }
     },
     {
+        "handle": "vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.showpad.com",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "coca-cola",
         "bounty": 0,
         "active": 1,
@@ -62,7 +76,7 @@
                 },
                 {
                     "identifier": "Corporate Sites",
-                    "type": "Other"
+                    "type": "Url"
                 },
                 {
                     "identifier": "Hindustan Coca-Cola Beverages",
@@ -81,6 +95,14 @@
                 {
                     "identifier": "All Coke Stores",
                     "type": "Other"
+                },
+                {
+                    "identifier": "*.ccnag.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "limonsoda.cl",
+                    "type": "Url"
                 },
                 {
                     "identifier": "Assets Related to China",
@@ -164,6 +186,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "api.staging-enviso.io/systemcenterapi",
+                    "type": "Url"
+                },
+                {
                     "identifier": "booking.staging-enviso.io",
                     "type": "Url"
                 },
@@ -188,6 +214,10 @@
                     "type": "Other"
                 },
                 {
+                    "identifier": "pay.staging-enviso.io",
+                    "type": "Url"
+                },
+                {
                     "identifier": "sales.staging-enviso.io",
                     "type": "Url"
                 },
@@ -204,7 +234,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "api.staging-enviso.io/systemcenterapi",
+                    "identifier": "https://api.staging-enviso.io/reportingcenterapi ",
                     "type": "Url"
                 },
                 {
@@ -216,6 +246,10 @@
                     "type": "Other"
                 },
                 {
+                    "identifier": "trade.staging-enviso.io",
+                    "type": "Url"
+                },
+                {
                     "identifier": "eLoxx: Locker Center Microservice",
                     "type": "Other"
                 },
@@ -224,15 +258,25 @@
                     "type": "Other"
                 },
                 {
-                    "identifier": "trade.staging-enviso.io",
-                    "type": "Url"
-                },
-                {
                     "identifier": "enviso.io",
                     "type": "Url"
                 },
                 {
                     "identifier": "www.enviso.io",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "captureourflag",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.pwn.intigriti.rocks",
                     "type": "Url"
                 }
             ],
@@ -266,6 +310,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "Modernized Discovery",
+                    "type": "Url"
+                },
+                {
                     "identifier": "app.lansweeper.com/trial",
                     "type": "Url"
                 },
@@ -283,10 +331,6 @@
                 },
                 {
                     "identifier": "on-premises software",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "OT scanner",
                     "type": "Url"
                 },
                 {
@@ -312,6 +356,24 @@
                     "type": "Url"
                 }
             ]
+        }
+    },
+    {
+        "handle": "arm",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Firmware: Mali Command Stream Frontend (CSF) Firmware",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Software: Mali GPU Kernel Driver",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -454,16 +516,16 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.c-point.be",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "188.118.8.0/25",
                     "type": "IpRange"
                 },
                 {
                     "identifier": "94.107.237.192/26",
                     "type": "IpRange"
+                },
+                {
+                    "identifier": " login-test.portofantwerpbruges.com/",
+                    "type": "Url"
                 },
                 {
                     "identifier": "api-accpt.portofantwerp.com",
@@ -519,14 +581,6 @@
                 },
                 {
                     "identifier": "login-accpt.portofantwerpbruges.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "login-test.portofantwerpbruges.com/poam/XUI/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "login.portofantwerpbruges.com",
                     "type": "Url"
                 },
                 {
@@ -793,6 +847,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "photoservice.stage.vismaonline.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "testing.maventa.com",
                     "type": "Url"
                 }
@@ -812,10 +870,6 @@
                 },
                 {
                     "identifier": "api.ninjakiwi.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "builds-auckland.ninja.kiwi",
                     "type": "Url"
                 },
                 {
@@ -869,6 +923,10 @@
                 {
                     "identifier": "*.souparea.com",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "rancher.ninjakiwi.me",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": [
@@ -881,6 +939,20 @@
                     "type": "Url"
                 }
             ]
+        }
+    },
+    {
+        "handle": "freepikcompany",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Freepik",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -902,11 +974,11 @@
                     "type": "Other"
                 },
                 {
-                    "identifier": "*.intel.com",
-                    "type": "Wildcard"
+                    "identifier": "Services",
+                    "type": "Other"
                 },
                 {
-                    "identifier": "Services",
+                    "identifier": "IT Infrastructure",
                     "type": "Other"
                 }
             ],
@@ -920,7 +992,7 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "blog.cybersecuritycoalition.be",
+                    "identifier": "annualreport.cybersecuritycoalition.be",
                     "type": "Url"
                 },
                 {
@@ -928,7 +1000,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "annualreport.cybersecuritycoalition.be",
+                    "identifier": "blog.cybersecuritycoalition.be",
                     "type": "Url"
                 },
                 {
@@ -976,7 +1048,7 @@
     {
         "handle": "soundtrackyourbrand",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -1038,8 +1110,16 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "1076840480",
+                    "type": "iOS"
+                },
+                {
                     "identifier": "1079537578",
                     "type": "iOS"
+                },
+                {
+                    "identifier": "https://mathem.se",
+                    "type": "Url"
                 },
                 {
                     "identifier": "https://oda.com",
@@ -1050,24 +1130,16 @@
                     "type": "Android"
                 },
                 {
+                    "identifier": "se.mathem.mathem",
+                    "type": "Android"
+                },
+                {
                     "identifier": "*.oda.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.prod.nube.tech",
                     "type": "Wildcard"
-                },
-                {
-                    "identifier": "1076840480",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "https://mathem.se",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "se.mathem.mathem",
-                    "type": "Android"
                 }
             ],
             "out_of_scope": []
@@ -1130,10 +1202,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Mobile apps owned by DHL Group companies",
-                    "type": "Other"
-                },
-                {
                     "identifier": "*.deutschepost.de",
                     "type": "Wildcard"
                 },
@@ -1156,6 +1224,40 @@
                 {
                     "identifier": "Any other domain from DHL Group companies",
                     "type": "Other"
+                },
+                {
+                    "identifier": "Mobile apps owned by DHL Group companies",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "coveovulnerabilitydisclosureprogram",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.cloud.coveo.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.itcloud.coveo.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.corp.coveo.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://github.com/coveo, https://github.com/coveooss, https://github.com/coveord",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "coveo.service-now.com",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": []
@@ -1335,23 +1437,11 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.probes.atlas.ripe.net",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.anchors.atlas.ripe.net",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "RIPE Meeting network (2001:67c:64::/48 and 193.0.24.0/21)",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "Any of the beta/dev environments",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "Any *.ripe.net host that is located outside of the in-scope IP ranges ",
+                    "identifier": "*.probes.atlas.ripe.net",
                     "type": "Wildcard"
                 },
                 {
@@ -1363,11 +1453,23 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "ripe(1to87).ripe.net",
+                    "identifier": "Any *.ripe.net host that is located outside of the in-scope IP ranges ",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "Any of the beta/dev environments",
                     "type": "Url"
                 },
                 {
                     "identifier": "exams.ripe.net",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "RIPE Meeting network (2001:67c:64::/48 and 193.0.24.0/21)",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "ripe(1to87).ripe.net",
                     "type": "Url"
                 }
             ]
@@ -1390,15 +1492,11 @@
     {
         "handle": "monzopublicbugbountyprogram",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
                     "identifier": "*.monzo.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.monzo.me",
                     "type": "Wildcard"
                 },
                 {
@@ -1412,15 +1510,43 @@
                 {
                     "identifier": "co.uk.getmondo",
                     "type": "Android"
+                },
+                {
+                    "identifier": "www.monzo.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "monzo.com",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": [
+                {
+                    "identifier": "*/p2p/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*/contact-discovery/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*/inbound-p2p/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.monzo.me",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "community.monzo.com",
+                    "type": "Url"
+                },
                 {
                     "identifier": "login.internal.monzo.com",
                     "type": "Url"
                 },
                 {
-                    "identifier": "community.monzo.com",
+                    "identifier": "monzo.me",
                     "type": "Url"
                 }
             ]
@@ -1441,7 +1567,15 @@
                     "type": "iOS"
                 },
                 {
-                    "identifier": "api.uphold.com",
+                    "identifier": "api-sandbox.uphold.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api-sandbox.uphold.com/graphql",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.portal.enterprise.uphold.com ",
                     "type": "Url"
                 },
                 {
@@ -1453,27 +1587,7 @@
                     "type": "Android"
                 },
                 {
-                    "identifier": "graphql.topperpay.com/graphql",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "wallet.uphold.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "api-sandbox.uphold.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "api.sandbox.topperpay.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "api.topperpay.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "graphql.sandbox.topperpay.com/graphql",
+                    "identifier": "portal.enterprise.uphold.com",
                     "type": "Url"
                 },
                 {
@@ -1481,15 +1595,155 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "www.uphold.com",
+                    "identifier": "api.sandbox.topperpay.com",
                     "type": "Url"
+                },
+                {
+                    "identifier": "app.sandbox.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "graphql.sandbox.topperpay.com/graphql",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uatcms.optimuscards.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.optimuscards.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.topperpay.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.uphodl.com",
+                    "type": "Wildcard"
                 },
                 {
                     "identifier": "*.uphold.com",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "docs.api.enterprise.uphold.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "docs.optimuscards.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "docs.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "docs.uphold.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "github.com/uphold/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "status.uphold.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "support-sandbox.uphold.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "support-staging.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "www.optimuscards.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "www.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "www.uphodl.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "www.uphold.com",
+                    "type": "Url"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "api.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.uphold.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.uphold.com/graphql",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "app.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cms.optimuscards.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "graphql.topperpay.com/graphql",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "support.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "support.uphold.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "wallet.uphold.com",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "dstnybugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1208823298#gid=1208823298",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1281087877#gid=1281087877",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1767553194#gid=1767553194",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1817816238#gid=1817816238",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1370437389#gid=1370437389",
+                    "type": "Other"
+                }
+            ]
         }
     },
     {
@@ -1498,10 +1752,6 @@
         "active": 1,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "134.58.179.102-103",
-                    "type": "IpRange"
-                },
                 {
                     "identifier": "autodiscover.uzleuven.be",
                     "type": "Url"
@@ -1547,11 +1797,15 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "dns1.uzleuven.be",
+                    "identifier": "193.58.149.121,193.58.149.98,193.58.149.82,193.58.149.101,193.58.149.107,193.58.149.108,193.58.149.111",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "wp5-truststroke.uzleuven.be",
                     "type": "Url"
                 },
                 {
-                    "identifier": "dns2.uzleuven.be",
+                    "identifier": "cardsonline.azdiest.be",
                     "type": "Url"
                 },
                 {
@@ -1567,11 +1821,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "uzlcm12cmg1.uzleuven.be",
+                    "identifier": "w1.uzleuven.be",
                     "type": "Url"
                 },
                 {
-                    "identifier": "w1.uzleuven.be",
+                    "identifier": "cardsonlinetst.azdiest.be",
                     "type": "Url"
                 },
                 {
@@ -1637,11 +1891,11 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "uzleuven.atlassian.net",
+                    "identifier": "jobs.uzleuven.be",
                     "type": "Url"
                 },
                 {
-                    "identifier": "jobs.uzleuven.be",
+                    "identifier": "uzleuven.atlassian.net",
                     "type": "Url"
                 },
                 {
@@ -1658,11 +1912,19 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "artists.tomorrowland.com/production-website/33117",
+                    "identifier": "cas.tomorrowland.com",
                     "type": "Url"
                 },
                 {
-                    "identifier": "cognito-idp.eu-west-1.amazonaws.com",
+                    "identifier": "*.weareone.world",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "belgium.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "brasil.tomorrowland.com",
                     "type": "Url"
                 },
                 {
@@ -1682,11 +1944,23 @@
                     "type": "iOS"
                 },
                 {
-                    "identifier": "oneworldradio.tomorrowland.com",
+                    "identifier": "sp1y1tpaf1.execute-api.eu-west-1.amazonaws.com",
                     "type": "Url"
                 },
                 {
-                    "identifier": "sp1y1tpaf1.execute-api.eu-west-1.amazonaws.com",
+                    "identifier": "tlbe.prod.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "tlbr.prod.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "tlfr.prod.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "winter.tomorrowland.com",
                     "type": "Url"
                 },
                 {
@@ -1696,6 +1970,22 @@
                 {
                     "identifier": "www.tomorrowland.com",
                     "type": "Url"
+                },
+                {
+                    "identifier": "store.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "brasil-store.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.stag.tomorrowland.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.stag.weareone.world",
+                    "type": "Wildcard"
                 },
                 {
                     "identifier": "*.tomorrowland.com",
@@ -1714,6 +2004,24 @@
         }
     },
     {
+        "handle": "signicatresponsibledisclosure",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Dokobit",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Signicat",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "onlineinschrijvingenbetalingstoepassing",
         "bounty": 1,
         "active": 1,
@@ -1726,6 +2034,28 @@
                 {
                     "identifier": "https://webwsp.aps.kuleuven.be/sap/bc/ui5_ui5/sap/zc_oi_appl/",
                     "type": "Url"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "liferaydxp",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Liferay DXP 2025.Q3",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Liferay DXP 2025.Q1",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Liferay DXP 2024.Q1",
+                    "type": "Other"
                 }
             ],
             "out_of_scope": []
@@ -1817,36 +2147,6 @@
         }
     },
     {
-        "handle": "jooki",
-        "bounty": 0,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "com.muuselabs.jooki",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "1287510114",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "*.jooki.rocks",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.muuselabs.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "my.jooki.rocks",
-                    "type": "Url"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "coolblue",
         "bounty": 1,
         "active": 1,
@@ -1874,10 +2174,6 @@
                 },
                 {
                     "identifier": "www.coolblue.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "aboutcoolblue.com",
                     "type": "Url"
                 },
                 {
@@ -1909,51 +2205,191 @@
         }
     },
     {
-        "handle": "clabs",
+        "handle": "miro",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "explorer.celo.org",
+                    "identifier": "https://miro.com/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "forno.celo.org",
+                    "identifier": "https://miro.com/app",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://*.celo.org",
+                    "identifier": "static-website.miro.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "mirostatic.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://mirosite.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://api.miro.com/*",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "https://github.com/celo-org/*",
-                    "type": "Wildcard"
+                    "identifier": "Miro SDK",
+                    "type": "Other"
                 },
                 {
-                    "identifier": "optics.app",
+                    "identifier": "https://miro.com/insights/app",
                     "type": "Url"
                 },
                 {
-                    "identifier": "stcelo.xyz",
+                    "identifier": "https://miro.com/blog/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://celo.org",
-                    "type": "Url"
+                    "identifier": "eu01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "us01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "au01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "svc.eu01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "svc.us01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "svc.au01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "svg-convert.eu01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "svg-convert.us01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "svg-convert.au01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "r.eu01.miro.com, r01.eu01.miro.com, r02.eu01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "r.us01.miro.com, r01.us01.miro.com, r02.us01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "r.au01.miro.com, r01.a01.miro.com, r02.au01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "eventhub.eu01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "eventhub.us01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "eventhub.au01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "integrations.eu01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "integrations.us01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "integrations.au01.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "1180074773",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "com.realtimeboard",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "MacOs Desktop Application",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Windows Desktop Application",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Confluence Cloud Plugin for Miro ",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Jira Cards for Miro",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Jira Cloud Plugin for Miro",
+                    "type": "Other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "celoprod.azurecr.io",
+                    "identifier": "miro.com/contact/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "MarketPlace Submission Process",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Feedback forms",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "https://community.miro.com/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "grameen.celo.org",
+                    "identifier": "https://developers.miro.com/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "hackathon.celo.org",
+                    "identifier": "https://help.miro.com/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://status.miro.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "miro.com/careers/vacancy/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "trcksplt.miro.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "https://uizard.io/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://support.uizard.io/",
                     "type": "Url"
                 }
             ]
@@ -2029,14 +2465,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.parool.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* parool.nl/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* parool.nl/inloggen",
                     "type": "Wildcard"
                 },
@@ -2047,6 +2475,14 @@
                 {
                     "identifier": "* parool.nl/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* parool.nl/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.parool.nl",
+                    "type": "Url"
                 }
             ]
         }
@@ -2086,10 +2522,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "* libelle.nl/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* libelle.nl/inloggen",
                     "type": "Wildcard"
                 },
@@ -2100,6 +2532,10 @@
                 {
                     "identifier": "* libelle.nl/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* libelle.nl/service",
+                    "type": "Wildcard"
                 }
             ]
         }
@@ -2107,7 +2543,7 @@
     {
         "handle": "digitaalvlaanderen",
         "bounty": 0,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -2137,18 +2573,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://www.vlaanderen.be/vlaamse-overheid/contact/stuur-een-e-mail",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html?*",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "bibis*.vlaanderen.be",
                     "type": "Wildcard"
                 },
@@ -2165,6 +2589,18 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html?*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://www.vlaanderen.be/vlaamse-overheid/contact/stuur-een-e-mail",
+                    "type": "Url"
+                },
+                {
                     "identifier": "natura2000.vlaanderen.be",
                     "type": "Url"
                 },
@@ -2178,15 +2614,15 @@
     {
         "handle": "saytechnologiesbbp",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*.say.rocks",
+                    "identifier": "https://*.saytechnologies.com",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "https://*.saytechnologies.com",
+                    "identifier": "https://*.say.rocks",
                     "type": "Wildcard"
                 }
             ],
@@ -2338,13 +2774,13 @@
                 {
                     "identifier": "register.capital.com",
                     "type": "Url"
+                },
+                {
+                    "identifier": "careers.capital.com",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": [
-                {
-                    "identifier": "help.capital.com",
-                    "type": "Url"
-                },
                 {
                     "identifier": "*affiliates.backend-capital.com",
                     "type": "Wildcard"
@@ -2355,6 +2791,217 @@
                 },
                 {
                     "identifier": "*education.backend-capital.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "help.capital.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "relocate-with-us.capital.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "3cxby.itcapital.io",
+                    "type": "Url"
+                },
+                {
+                    "identifier": " texis.itcapital.io",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "telenetgroup",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "1474970790",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "1479839913",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "be.telenet.safespot",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "be.telenet.safespotgo",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "https://www2.telenet.be/nl/klantenservice/alles-over-safespot/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.base.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.nextel.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.online-essentials.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.tadaam.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.telenet.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.telenet.tv",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.telenettv.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.wyre.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.yeloplay.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "1469522677",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "be.basecompany.base.mybase",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "be.tadaam",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "be.telenet.ipcentrex",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "be.telenet.telenetapp",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "be.telenet.yelo&hl=en",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "Digibox",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "Digicorder",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "https://mycloud.telenet.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "Modems",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "my-base/id854698021",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "Telenet access points",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "Telenet Powerlines",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "telenet/id1414819742",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "yelo-play/id407200903",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "smartflow.telenet.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "smartwork.prd.telenet.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "wifiportal.telenet.be",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": ".apache52.cloud.telenet.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.access.telenet.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.inbel.telenet.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.kabel.telenet.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.static.telenet.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.telenethotspot.be  ",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.web.cloud.telenet.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "business.telenet.be/nl/syba (A-desk website)",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "comm.base.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "home.base.be/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "mkt.telenet.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "Services and systems that are hosted, created, managed or owned by Telenet customers.",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "sim.telenet.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "users.telenet.be/*",
                     "type": "Wildcard"
                 }
             ]
@@ -2408,6 +3055,14 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "*.buhlergroup.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.pk-buhler.ch",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.buhler-datascience.ch",
                     "type": "Wildcard"
                 },
@@ -2421,10 +3076,6 @@
                 },
                 {
                     "identifier": "*.buhlergroup.cn",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.buhlergroup.com",
                     "type": "Wildcard"
                 },
                 {
@@ -2446,12 +3097,32 @@
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "*.virtualworld.buhlergroup.com",
+                    "identifier": "*.learnhub.buhlergroup.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.virtualworld-portal.buhlergroup.com",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.virtualworld.buhlergroup.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.webinars.buhlergroup.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "bestbuy.buhlergroup.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "channel.buhlergroup.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "gitlab.buhler-datascience.ch/api/v4/projects",
+                    "type": "Url"
                 },
                 {
                     "identifier": "imap.buhlergroup.cn",
@@ -2464,22 +3135,69 @@
                 {
                     "identifier": "smtp.buhlergroup.cn",
                     "type": "Url"
-                },
+                }
+            ]
+        }
+    },
+    {
+        "handle": "excoscalebugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
                 {
-                    "identifier": "channel.buhlergroup.com",
+                    "identifier": "https://portal.exoscale.com/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "bestbuy.buhlergroup.com",
+                    "identifier": " https://api-*exoscale.com/v2",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://sos-*.exo.io",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://sks-*.exo.io",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.internal.exoscale.ch",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://www.exoscale.com/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "*.webinars.buhlergroup.com",
-                    "type": "Wildcard"
+                    "identifier": "https://community.exoscale.com/",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://changelog.exoscale.com/",
+                    "type": "Url"
                 },
                 {
-                    "identifier": "*.learnhub.buhlergroup.com",
-                    "type": "Wildcard"
+                    "identifier": "https://exoscalestatus.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://academy.exoscale.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://jobs.exoscale.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "CDN service",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Marketplace products",
+                    "type": "Other"
                 }
             ]
         }
@@ -2515,13 +3233,9 @@
     {
         "handle": "embarkstudios",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "*.es-dis.net ",
-                    "type": "Wildcard"
-                },
                 {
                     "identifier": "auth.embark.net",
                     "type": "Url"
@@ -2531,23 +3245,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "*.es-pio.net",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.observability.embark.net",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "ark-release.embark.dev",
-                    "type": "Url"
-                },
-                {
                     "identifier": "asset-metadata-api.embark.net",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "github.com/EmbarkStudios/presser",
                     "type": "Url"
                 },
                 {
@@ -2583,27 +3285,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "ark-status.embark.dev",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "ark.embark-studios.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "embark-studios.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "github.com/EmbarkStudios/cargo-about",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "github.com/EmbarkStudios/cargo-deny",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "github.com/EmbarkStudios/crash-handling",
                     "type": "Url"
                 },
                 {
@@ -2640,11 +3322,23 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "*.moralis.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.bigmoralis.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.grandmoralis.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.moralis-internal.io",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.moralis-streams.com",
                     "type": "Wildcard"
                 },
                 {
@@ -2660,23 +3354,15 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "*.moralismoney.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.moralisweb3.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.usemoralis.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.moralis-internal.io",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.moralis-streams.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.moralismoney.com",
                     "type": "Wildcard"
                 }
             ],
@@ -2735,10 +3421,6 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "mgm.mobilevikings.be",
-                    "type": "Url"
-                },
-                {
                     "identifier": "uwa.mobilevikings.be",
                     "type": "Url"
                 },
@@ -2761,6 +3443,10 @@
                 {
                     "identifier": "*.prd.mobilevikings.be",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "mgm.mobilevikings.be",
+                    "type": "Url"
                 },
                 {
                     "identifier": "vikingco.be",
@@ -2788,6 +3474,10 @@
                 },
                 {
                     "identifier": "vikinglab.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "forms.mobilevikings.be",
                     "type": "Url"
                 }
             ],
@@ -2844,15 +3534,11 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://app-reporting-ui-intigrititestmt-test-001.azurewebsites.net/",
-                    "type": "Url"
-                },
-                {
                     "identifier": "https://azuregateway.prato.be/RDWeb",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://dashboardintigrititestmt.earnieapp.be",
                     "type": "Url"
                 },
                 {
@@ -2868,11 +3554,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://intigrititestmt.prato.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://testearniedashboardintigrititestmtwa.azurewebsites.net/",
+                    "identifier": "https://reportinguiintigrititestmt.earnieapp.be/",
                     "type": "Url"
                 },
                 {
@@ -2902,6 +3584,18 @@
                 {
                     "identifier": "https://testelviveloonbepalingintigrititestmtwa.azurewebsites.net/",
                     "type": "Url"
+                },
+                {
+                    "identifier": "https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://testelvivefacturatieintigrititestmtwa.azurewebsites.net",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://testelvivefacturatieuiintigrititestmtwa.azurewebsites.net",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": []
@@ -2924,7 +3618,7 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "booking.*.sqills.com",
+                    "identifier": "*.red.sqills.team",
                     "type": "Wildcard"
                 },
                 {
@@ -2932,12 +3626,12 @@
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "careers.sqills.com",
-                    "type": "Url"
+                    "identifier": "booking.*.sqills.com",
+                    "type": "Wildcard"
                 },
                 {
-                    "identifier": "*.red.sqills.team",
-                    "type": "Wildcard"
+                    "identifier": "careers.sqills.com",
+                    "type": "Url"
                 }
             ]
         }
@@ -2949,8 +3643,8 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.stbpost.be",
-                    "type": "Wildcard"
+                    "identifier": "www.bpost2.be",
+                    "type": "Url"
                 },
                 {
                     "identifier": "imove.bpost.cloud",
@@ -2970,6 +3664,10 @@
                 },
                 {
                     "identifier": "*.landmarkglobal-group.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.stbpost.be",
                     "type": "Wildcard"
                 },
                 {
@@ -3076,14 +3774,48 @@
         }
     },
     {
+        "handle": "altera",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Firmware",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "Hardware",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "FPGA Solution Development Tools and Utilities",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Software",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Non Altera Products",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "delijn",
         "bounty": 0,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
                     "identifier": "456910787",
                     "type": "iOS"
+                },
+                {
+                    "identifier": "accept.delijn.be",
+                    "type": "Url"
                 },
                 {
                     "identifier": "api-a.delijn.be",
@@ -3096,10 +3828,6 @@
                 {
                     "identifier": "com.themobilecompany.delijn",
                     "type": "Android"
-                },
-                {
-                    "identifier": "accept.delijn.be",
-                    "type": "Url"
                 },
                 {
                     "identifier": "www.delijn.be",
@@ -3163,29 +3891,33 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "https://app.pdq.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://portal.pdq.com/",
+                    "type": "Url"
+                },
+                {
                     "identifier": "https://a.simplemdm.com/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://auth2.pdq.tools/ ",
+                    "identifier": "https://auth2.pdq.com/",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://library-staging.pdq.tools/ ",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://houston-staging.pdq.tools",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://portal-staging.pdq.tools/ ",
+                    "identifier": "https://library.pdq.com/",
                     "type": "Url"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://*.pdq.com/ ",
+                    "identifier": "https://*.pdq.com/",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://*.pdq.tools/",
                     "type": "Wildcard"
                 },
                 {
@@ -3195,10 +3927,6 @@
                 {
                     "identifier": "https://*.smartdeploy.com/ ",
                     "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://detect.pdq.tools/ ",
-                    "type": "Url"
                 }
             ]
         }
@@ -3210,7 +3938,7 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*pwn.intigriti.rocks",
+                    "identifier": "*.pwn.intigriti.rocks",
                     "type": "Wildcard"
                 },
                 {
@@ -3241,10 +3969,6 @@
                 },
                 {
                     "identifier": "autodiscover.intigriti.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "blog.intigriti.com",
                     "type": "Url"
                 },
                 {
@@ -3284,24 +4008,30 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "t.intigriti.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "trust.intigriti.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "welcome.intigriti.com",
                     "type": "Url"
                 }
             ]
         }
     },
     {
+        "handle": "meshtastic",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://github.com/meshtastic/firmware",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "mobile apps",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -3390,20 +4120,20 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.humo.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* humo.be/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* humo.be/inloggen",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "* humo.be/login",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* humo.be/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.humo.be",
+                    "type": "Url"
                 }
             ]
         }
@@ -3415,16 +4145,16 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Any IoT device sold by Nestl\u00e9 Brands",
-                    "type": "Device"
-                },
-                {
                     "identifier": "*.nestle.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "Any domain related to Nestl\u00e9 brands",
                     "type": "Url"
+                },
+                {
+                    "identifier": "Any IoT device sold by Nestl\u00e9 Brands",
+                    "type": "Device"
                 }
             ],
             "out_of_scope": []
@@ -3437,7 +4167,11 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*.personiowhistleblowing.com",
+                    "identifier": "*.app.personio-dev.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.app.personio.com",
                     "type": "Wildcard"
                 },
                 {
@@ -3449,8 +4183,24 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "api.personio-dev.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.personio.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "https://*.personio.de",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://*.personiowhistleblowing.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://community.personio.com",
+                    "type": "Url"
                 },
                 {
                     "identifier": "https://hug.personio.com",
@@ -3508,6 +4258,10 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "*.sqills-bugbounty-test.cloud.sqills.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "admin.sqills-bugbounty-test.cloud.sqills.com",
                     "type": "Url"
                 },
@@ -3517,10 +4271,6 @@
                 },
                 {
                     "identifier": "sqills-*.*.s3p.cloud",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.sqills-bugbounty-test.cloud.sqills.com",
                     "type": "Wildcard"
                 }
             ],
@@ -3740,6 +4490,30 @@
             ],
             "out_of_scope": [
                 {
+                    "identifier": "*.cineramabios.nl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "dev.kinepolis.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "helpdesk.landmarkcinemas.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "jobs.kinepolis.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "l.kinepolis.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "openx.kinepolis.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "shop.kinepolis.be ",
                     "type": "Url"
                 },
@@ -3753,26 +4527,6 @@
                 },
                 {
                     "identifier": "shop.kinepolis.lu",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "*.cineramabios.nl",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "dev.kinepolis.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "jobs.kinepolis.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "l.kinepolis.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "openx.kinepolis.com",
                     "type": "Url"
                 }
             ]
@@ -3858,22 +4612,57 @@
         }
     },
     {
+        "handle": "admissions-for-students",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://webwsp.aps.kuleuven.be/sap/bc/ui5_ui5/sap/zc_ad_appl/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://webwsp.aps.kuleuven.be/sap/opu/odata/sap/ ZC_AD_APPLICANT_SRV/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://www.kuleuven.be/sapredir/admissions_50000050",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://secure.ogone.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://idp.kuleuven.be/idp/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://account.kuleuven.be/",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
         "handle": "bmwgroup-automotive",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "de.bmw.connected.mobile20.row",
-                    "type": "Android"
+                    "identifier": "Functions dealing with vehicle access and immobilizer",
+                    "type": "Device"
                 },
                 {
                     "identifier": "1519034860",
                     "type": "iOS"
                 },
                 {
-                    "identifier": "Functions dealing with vehicle access and immobilizer",
-                    "type": "Device"
+                    "identifier": "de.bmw.connected.mobile20.row",
+                    "type": "Android"
                 },
                 {
                     "identifier": "Remaining functions",
@@ -3987,14 +4776,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.demorgen.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* demorgen.be/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* demorgen.be/inloggen",
                     "type": "Wildcard"
                 },
@@ -4005,6 +4786,14 @@
                 {
                     "identifier": "* demorgen.be/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* demorgen.be/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.demorgen.be",
+                    "type": "Url"
                 }
             ]
         }
@@ -4016,14 +4805,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "nl.speakap.speakap",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/nl/app/speakap/id713925262",
-                    "type": "iOS"
-                },
-                {
                     "identifier": "*.speakap.com",
                     "type": "Wildcard"
                 },
@@ -4034,6 +4815,14 @@
                 {
                     "identifier": "Any related Speakap domain",
                     "type": "Url"
+                },
+                {
+                    "identifier": "https://apps.apple.com/nl/app/speakap/id713925262",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "nl.speakap.speakap",
+                    "type": "Android"
                 }
             ],
             "out_of_scope": []
@@ -4088,8 +4877,64 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.bild.de",
+                    "identifier": "adtechnology.axelspringer.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.asadcdn.com",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "germany.politico.eu",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bild.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "welt.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "epaper.welt.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cancellation.prod.ps.welt.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "digital.welt.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "signin.auth.welt.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "m.bild.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.hey.bild.de",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "go.welt.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.auth.bild.de",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.sportbild.de",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "meinkonto.bild.de",
+                    "type": "Url"
                 },
                 {
                     "identifier": "*.bild.tv",
@@ -4100,24 +4945,24 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "18.184.198.198, 18.185.214.59, 18.194.109.179, 3.121.117.72, 3.121.138.10, 3.121.138.128, 3.121.138.134, 3.121.138.170, 3.121.138.33, 3.121.138.43, 3.124.248.208, 35.156.137.39",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "dealer.prod.ps.axelspringer.de/purchases/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.germany.politico.eu",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.welt.de",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "https://dealer.prod.ps.axelspringer.de/api/v1/partners/{partnerId}/activation",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://dealer.prod.ps.axelspringer.de/purchases/004/bild/*",
+                    "identifier": "*.bild.de",
                     "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://dealer.prod.ps.axelspringer.de/purchases/004/welt/*",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://secure.mypass.de/",
-                    "type": "Url"
                 },
                 {
                     "identifier": "*.autobild.de",
@@ -4133,6 +4978,14 @@
                 },
                 {
                     "identifier": "*.springtools.de",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "editorial.one",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.as-nmt.de",
                     "type": "Wildcard"
                 },
                 {
@@ -4170,9 +5023,7 @@
                 {
                     "identifier": "*.wissen-sie-mehr.de",
                     "type": "Wildcard"
-                }
-            ],
-            "out_of_scope": [
+                },
                 {
                     "identifier": "technik.autobild.de",
                     "type": "Url"
@@ -4180,6 +5031,12 @@
                 {
                     "identifier": "technik.beta.autobild.de",
                     "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.axelspringer.com",
+                    "type": "Wildcard"
                 }
             ]
         }
@@ -4191,7 +5048,171 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "31.31.128.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.140.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.141.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.143.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.143.0/25",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.150.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.158.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.159.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "45.11.166.40/29",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "79.132.241.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "85.234.192.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "85.234.203.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "85.234.204.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "85.234.205.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "193.110.255.128/28",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.0.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.1.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.2.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.3.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.4.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.5.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.8.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "212.71.11.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "213.211.130.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "213.211.138.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "213.211.188.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "213.219.128.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "213.219.132.0/24",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "https://livechat.citymesh.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://auth.citymesh.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://extra.citymesh.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://fleet.citymeshconnect.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://my.citymesh.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://cabmanager.citymesh.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://dialhome.ncentric.be/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://auth.wifilab.be/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://extra.edpnet.net/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://api-gateway.citymesh.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://cc.safety-drones.com/",
+                    "type": "Url"
+                },
+                {
                     "identifier": "*.antwerpfreewifi.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.biotechnology-citymesh.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.citymesh.com",
                     "type": "Wildcard"
                 },
                 {
@@ -4223,7 +5244,15 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "*.citymesh.fr",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.citymesh.nl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.citymesh.io",
                     "type": "Wildcard"
                 },
                 {
@@ -4232,6 +5261,18 @@
                 },
                 {
                     "identifier": "*.citymeshconnect.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.ctmsh.co",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.connectingsenses.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.connectingsenses.com",
                     "type": "Wildcard"
                 },
                 {
@@ -4244,6 +5285,26 @@
                 },
                 {
                     "identifier": "*.engiem2m.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.edpnet.net",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.edpnet.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.edpnet.nl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.edpnet.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.engiem2m.com",
                     "type": "Wildcard"
                 },
                 {
@@ -4267,6 +5328,18 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "*.ptxbac.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.ps-radiocom.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.ps-radiocom.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.safety-drones.be",
                     "type": "Wildcard"
                 },
@@ -4283,7 +5356,11 @@
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "*.wflb.be",
+                    "identifier": "*.towereye.be",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.towereye.eu",
                     "type": "Wildcard"
                 },
                 {
@@ -4291,22 +5368,18 @@
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "*.wifinmbssncb.be",
+                    "identifier": "*.wflb.be",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "31.31.128.0/19",
-                    "type": "IpRange"
+                    "identifier": "*.wifinmbssncb.be",
+                    "type": "Wildcard"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "31.31.132.0/24",
-                    "type": "IpRange"
-                },
-                {
-                    "identifier": "31.31.141.0/26",
-                    "type": "IpRange"
+                    "identifier": "*.dyn.edpnet.net",
+                    "type": "Wildcard"
                 },
                 {
                     "identifier": "*.citymesh.recruitee.com",
@@ -4337,6 +5410,10 @@
                     "type": "IpRange"
                 },
                 {
+                    "identifier": "31.31.132.0/24",
+                    "type": "IpRange"
+                },
+                {
                     "identifier": "31.31.134.0/23",
                     "type": "IpRange"
                 },
@@ -4350,6 +5427,10 @@
                 },
                 {
                     "identifier": "31.31.140.92-254",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.141.0/26",
                     "type": "IpRange"
                 },
                 {
@@ -4388,14 +5469,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "shop.vtm.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* vtmgo.be/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* vtmgo.be/inloggen",
                     "type": "Wildcard"
                 },
@@ -4406,6 +5479,14 @@
                 {
                     "identifier": "* vtmgo.be/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* vtmgo.be/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "shop.vtm.be",
+                    "type": "Url"
                 }
             ]
         }
@@ -4455,206 +5536,6 @@
                 {
                     "identifier": "https://etracker.bpost.cloud/pro",
                     "type": "Url"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "regionaledagbladenmediahuisnederland",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "mijn.gooieneemlander.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "mijn.haarlemsdagblad.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "mijn.leidschdagblad.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "mijn.noordhollandsdagblad.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "mijn.telegraaf.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "www.gooieneemlander.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "www.haarlemsdagblad.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "www.leidschdagblad.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "www.noordhollandsdagblad.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "www.telegraaf.nl",
-                    "type": "Url"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "vrt",
-        "bounty": 0,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.canvas.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.dewarmsteweek.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.ketnet.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.klara.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.mnm.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.radio1.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.radio2.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.radioplus.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.sporza.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.stubru.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.vrt.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "1001982587",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1001983790",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1041369236",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116046348",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116049623",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116054448",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116054765",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1337574835",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "388159251",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "878339906",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "927943978",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "952769219",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "959958329",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "be.vrt.ketnet.ketnet",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.ketnet.ketnetjr",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.mobile.android.deredactie",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.mobile.android.sporza.voetbal",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.klara",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.mnm",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.radio1",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.radio2",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.stubru",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.vrtnu",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "com.fwc2014.vrt.and",
-                    "type": "Android"
                 }
             ],
             "out_of_scope": []
@@ -4773,15 +5654,181 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "www.veriff.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.veriff.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "developers.veriff.me",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "www.veriff.com",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://station.veriff.com/config/",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "rivianbugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://business.rivian.com/api",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://rivian.com/api/gql/content/graphql",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://rivian.com/api/gql/gateway/graphql",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://rivian.com/api/gql/orders/graphql",
+                    "type": "Url"
+                },
+                {
+                    "identifier": " *.rivian.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "1570215232",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "basecamp.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "com.rivian.android.consumer",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "rivian.com",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "assets.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "careers.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "demovehicles.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "feedback.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "internalshop.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "media.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "stories.rivian.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "view.e.rivian.com",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "wpenginebugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.getflywheel.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://getflywheel.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://my.wpengine.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://payments.wpengine.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://wpengine.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*. advancedcustomfields.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*. bettersearchreplace.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.deliciousbrains.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.localwp.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.nitropack.io",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.studiopress.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.wpengine.io",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.wpesvc.net",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "WP Engine-developed WordPress Plugins and Themes",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "https://makeshift.film",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://studiopress.blog",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://torquemag.io",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://velocitize.com",
                     "type": "Url"
                 }
             ],
@@ -4794,10 +5841,6 @@
         "active": 1,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "css-tricks.com",
-                    "type": "Url"
-                },
                 {
                     "identifier": "*.cloudways.com",
                     "type": "Wildcard"
@@ -4823,11 +5866,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "uacademy.ugurus.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "ugurus.com",
+                    "identifier": "css-tricks.com",
                     "type": "Url"
                 }
             ],
@@ -4837,41 +5876,33 @@
     {
         "handle": "innogames",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.igpayment.com",
-                    "type": "Wildcard"
+                    "identifier": "Backend/Non-Game",
+                    "type": "Other"
                 },
                 {
-                    "identifier": "*.innogames.de",
-                    "type": "Wildcard"
+                    "identifier": "Elvenar",
+                    "type": "Other"
                 },
                 {
-                    "identifier": "support.innogames.com",
-                    "type": "Url"
+                    "identifier": "Forge of Empires",
+                    "type": "Other"
                 },
                 {
-                    "identifier": "*.innogames.com",
-                    "type": "Wildcard"
+                    "identifier": "Grepolis",
+                    "type": "Other"
                 },
                 {
-                    "identifier": "innogames.com",
-                    "type": "Url"
+                    "identifier": "Tribal Wars",
+                    "type": "Other"
                 }
             ],
             "out_of_scope": [
                 {
                     "identifier": "autodiscover.innogames.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "call.innogames.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "conferencing.innogames.com",
                     "type": "Url"
                 },
                 {
@@ -4887,27 +5918,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "lyncdiscover.innogames.de",
-                    "type": "Url"
-                },
-                {
                     "identifier": "mail.innogames.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "mail.innogames.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "mailout.innogames.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "meet.innogames.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "mra.innogames.com",
                     "type": "Url"
                 },
                 {
@@ -4915,19 +5926,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "om-cdn.innogames.de",
-                    "type": "Url"
-                },
-                {
                     "identifier": "pn.innogames.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "sip.innogames.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "sip.innogames.de",
                     "type": "Url"
                 },
                 {
@@ -4937,157 +5936,6 @@
                 {
                     "identifier": "typingmind.innogames.de",
                     "type": "Url"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "sixt",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.sixt.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.sixt.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "295079411",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "Any related sixt domain",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "com.sixt.reservation",
-                    "type": "Android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://sixt-leasing",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://siemens.smc.sixt.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://s004-px01.s004.smc.sixt.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://s004-px02.s004.smc.sixt.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://p001-slweb-px.p001.slweb.smc.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "s003-lb-siemens-stage.s003.smc.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "s002-lb-siemens-test.s002.smc.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "s004-lb-siemens.s004.smc.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "app.rental-images.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "b2cleasing.typo3.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "corporate.typo3.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "domainparking.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "fleetcheck.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "intranet.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "lacb2c.typo3.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "lkw.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "lkw.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "logistics.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "partner.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "partner.typo3.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "promo.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "promo.typo3.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "reporting.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "rproxy-firenze1.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "rproxy-firenze2.sixt.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "sixtbook.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "webservices.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "drying-little-tears.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "185.97.224.12",
-                    "type": "IpRange"
-                },
-                {
-                    "identifier": "185.97.224.13",
-                    "type": "IpRange"
                 }
             ]
         }
@@ -5117,18 +5965,111 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "workplace.randstad.in",
-                    "type": "Url"
-                },
-                {
                     "identifier": "apps.randstad.in",
                     "type": "Url"
                 },
                 {
                     "identifier": "cz.randstad.com",
                     "type": "Url"
+                },
+                {
+                    "identifier": "workplace.randstad.in",
+                    "type": "Url"
                 }
             ]
+        }
+    },
+    {
+        "handle": "dropbox-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "All assets owned by or attributable to Dropbox",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Third-party systems or domains referencing Dropbox",
+                    "type": "Other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "exactvulnerabilitydisclosureprogram",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.itscope.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.itscope.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "www.itscope.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.itscope.de",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.gripp.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "www.gripp.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "www.fiscaalgemak.nl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.fiscaalgemak.nl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "www.bouw7.nl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.bouw7.nl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.horeko.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "www.horeko.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.weclapp.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "www.weclapp.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "All Exact Group Related Domains",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.exact.com/*",
+                    "type": "Wildcard"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -5138,15 +6079,23 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.kiwa.info",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.kiwa.com",
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "*.kiwa.info",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.kiwa.nl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.kiwa.no",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.kiwa.se",
                     "type": "Wildcard"
                 }
             ],
@@ -5201,15 +6150,15 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.allegro.sk",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.allegro.cz",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.allegro.pl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.allegro.sk",
                     "type": "Wildcard"
                 },
                 {
@@ -5238,146 +6187,11 @@
         }
     },
     {
-        "handle": "vidaxlpublic",
+        "handle": "datacamp",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "api.vidaxl.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "ar.vidaxl.sa.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "b2b.vidaxl.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "cms.woger-cdn.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "customer-services.vidaxl.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "en.vidaxl.ae",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "en.vidaxl.ca",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "fps-extr-services.vidaxl.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "fr.vidaxl.ch",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "is.vidaxl.is",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "nexus.vidaxl.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "nl.vidaxl.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "serviceportal.vidaxl.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "shops-services.vidaxl.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "tracking.vidaxl.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "uk.vidaxl.com.ua",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "vidaxl.zendesk.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "www.dropshippingxl.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "www.vidaxl.<TLD>",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "apigateway.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "app.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "corporate.vidaxl.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "drone.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "qa-db.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "qa.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "qa1-apigateway.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "staging-apigateway.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "staging-db.vidaxl.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "staging.vidaxl.io",
-                    "type": "Url"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "partners.vidaxl.com",
-                    "type": "Url"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "datacamp",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "assessment-api.datacamp.com",
-                    "type": "Url"
-                },
                 {
                     "identifier": "app.datacamp.com/certification",
                     "type": "Url"
@@ -5388,6 +6202,10 @@
                 },
                 {
                     "identifier": "app.datacamp.com/learn",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "assessment-api.datacamp.com",
                     "type": "Url"
                 },
                 {
@@ -5449,6 +6267,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "dccertified.datacamp.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "intranet.datacamp.com",
                     "type": "Url"
                 },
@@ -5492,6 +6314,33 @@
                 {
                     "identifier": "*.axelspringer.com",
                     "type": "Wildcard"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "adtechnology.axelspringer.com",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "proofvdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://verify.proof.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://api.proof.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://app.proof.com",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": []
@@ -5577,6 +6426,10 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "*.bonnetapps.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.boostpower.co.uk",
                     "type": "Wildcard"
                 },
@@ -5594,6 +6447,10 @@
                 },
                 {
                     "identifier": "*.gridsvc.net",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.joinbonnet.com",
                     "type": "Wildcard"
                 },
                 {
@@ -5623,7 +6480,795 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "ovo.itgcanopy.com",
+                    "identifier": "prod.tardis.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "pol.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "notification-service.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "developer.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "aws.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.prd.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cheque-payouts.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "servicecomms-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "payments-api.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "direct-debit-review.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "argocd.metering-shared-test.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "mon.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "worldpay-webhook-ovotest.uat.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "kafka-connect-fintxns.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "recommended-dds.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "engineering-handbook.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "login-aggregator.internal.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "aiven-kafka-users-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "retail-payg.gcp.nonprod.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "keg-tap-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "mq01.dev.ptl.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "kafka-connect-fintxns.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "test-simple-event.data-availability.gcp.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "id-oot.dev.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "retail-aiven-kafka-users.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "oot.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "smex-scheduler-test.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prod.flow-platform.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "rac-spam.uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "admin.internal.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "tardis.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bast-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "artemis.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "accounts-internal-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "fakeidserver.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "log.prd.mon.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prx01.uat.ptl.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "argocd.metering-shared-sandbox.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bast-aus.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "worldpay-webhook-orion.uat.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "flow-platform.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bast-uat-aus.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "internal.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "eng-svc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "smex-scheduler-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cms-flags.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "tariffs-service.prd.ec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "contracts-api.prd.ec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "jaws-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cloudquery-grafana.seceng-prod-aws.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "internal.prod.tardis.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "account-transaction.rise.gcp.nonprod.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "impulsive.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "sis.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "profile-coefficients.prd.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.smb.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "frontend-api.prod.usage.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "retail-payg.gcp.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "webhook.uat.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.uat.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "recommended-dds.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "orion-bolton-service.prd.props.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "direct-debit-review.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "smex-scheduler-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.test.he.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "argocd.metering-shared-non-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "aiven-kafka-users.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bast-load-test.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "load-test-event.test-tap-team.gcp.nonprod.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth0.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "public.bws-testing.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "testlab.gcp.infosec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "terraform.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "notification-service-public.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "estimation.uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "infosec-audit.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "contract-update-service.prd.ec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "manual-readings.uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "webhook.prd.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "servicecomms-dev.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "data-availability.gcp.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "salesforce.prod.oot.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "self-serve-refunds.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cip.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bws-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth.id.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "smex-scheduler-sandbox.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "nonprod.cip.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "accounts-internal-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "sis-sandbox.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cheque-payouts.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "accounts-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "jaws-testing.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "orion-bolton-service.uat.props.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "nonprod.tardis.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "payments-api.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "replay.prd.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "login.internal.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bws.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bws-testing.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "argocd.metering-shared-non-prod-aus.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prd.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prod.growth.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "sme.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "seceng-nonprod-aws.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "nonprod.growth.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "jaws-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "orion-onboarding-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "argocd.metering-shared-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "worldpay-webhook-orion.prd.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "internal.id-test.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "notification-service-uat-public.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "nonprod.flow-platform.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "contract-update-service.uat.ec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "kafka-connect-fintxns.prod.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "rise.gcp.nonprod.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prod.oot.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "test-cert-manager.uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth-green.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "servicecomms.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "ec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "reads-lifecycle-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "tariffs-service.uat.ec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "public-manual-readings.prd.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.payments.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bws-sandbox.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "profile-coefficients.uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "asp-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "internal.nonprod.tardis.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bast.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.nonprod.flow-platform.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "rise.gcp.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "asp-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "estimation.prd.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "ipam.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "replay.uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "homemoves-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth-green.internal.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.prd.meters.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.onboarding.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "homemoves-prod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "payment-dd-service.uat.ptl.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "frontend-api.uat.usage.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "orion-onboarding.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "account-activation-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prd.smb.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "move-ins.prod.homemoves.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cost-usage.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "sonarqube.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "public-manual-readings.uat.randc.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "nonprod.oot.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "sis-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "direct-debit-review-exemption.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "accounts-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "contracts-api.uat.ec.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "log.uat.mon.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "scully-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "self-serve-refunds.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "shipit.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "core-billing.gcp.nonprod.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "notification-service-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.ec.ovotech.org.uk",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "manual-reads.prd.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "pol-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth.internal.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "admin.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "bast-test-aus.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "api.he.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prd.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "account-transaction.rise.gcp.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "rac-spam.prd.rac.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "prod.usage.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.nonprod.oot.ovotech.org.uk",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "public.homemoves-*.ovotech.org.uk",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "contracts-api.*.ec.ovotech.org.uk",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.prod.oot.ovotech.org.uk",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "api.uat.meters.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth-internal.id-uat.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "payment-dd-service.prd.ptl.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "pol-staging.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "reads-lifecycle-nonprod.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cms-flags.uat.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "move-ins.nonprod.homemoves.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "jaws-sandbox.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "uat.usage.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "direct-debit-review-exemption.prd.pace.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "data-availability.gcp.nonprod.bedrock.ovotech.org.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.ec.ovotech.org.uk",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "qs.ovotech.org.uk",
                     "type": "Url"
                 },
                 {
@@ -5691,6 +7336,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "http://vp-alexandria.gridsvc.net/",
+                    "type": "Url"
+                },
+                {
                     "identifier": "learn.ovo.com",
                     "type": "Url"
                 },
@@ -5704,6 +7353,10 @@
                 },
                 {
                     "identifier": "ovo-comms.co.uk",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "ovo.itgcanopy.com",
                     "type": "Url"
                 },
                 {
@@ -5838,17 +7491,9 @@
     {
         "handle": "robinhoodbbp",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "com.robinhood.gateway",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "com.robinhood.money",
-                    "type": "Android"
-                },
                 {
                     "identifier": "*.rhinternal.net",
                     "type": "Wildcard"
@@ -5876,21 +7521,90 @@
                 {
                     "identifier": "com.robinhood.android",
                     "type": "Android"
+                },
+                {
+                    "identifier": "com.robinhood.gateway",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "com.robinhood.money",
+                    "type": "Android"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "earlytalent.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "careers.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "weareallinvestors.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "press.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "underthehoodpod.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "go.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "startinvesting.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "esg.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "fleet.infra.robinhood.net",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "content.research.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "shop.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "events.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "vgs-api.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "affiliates.robinhood.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "share.robinhood.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "roadshow.robinhood.com",
+                    "type": "Url"
+                }
+            ]
         }
     },
     {
         "handle": "privatebankdelen",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "www.delen.bank",
-                    "type": "Url"
-                },
                 {
                     "identifier": "api.digital.delen.be ",
                     "type": "Url"
@@ -5960,6 +7674,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "www.delen.bank",
+                    "type": "Url"
+                },
+                {
                     "identifier": "www.delen.be/en ",
                     "type": "Url"
                 }
@@ -5970,7 +7688,7 @@
     {
         "handle": "eurid",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -6020,10 +7738,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "redcare-apotheke.ch",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.sa-tech.de",
                     "type": "Wildcard"
                 },
@@ -6041,6 +7755,14 @@
                 },
                 {
                     "identifier": "payment.shop-apotheke.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "redcare-apotheke.ch",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "redcare-pharmacie.fr",
                     "type": "Url"
                 },
                 {
@@ -6081,10 +7803,6 @@
                 },
                 {
                     "identifier": "www.shop-apotheke.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "redcare-pharmacie.fr",
                     "type": "Url"
                 },
                 {
@@ -6206,10 +7924,6 @@
                     "type": "Other"
                 },
                 {
-                    "identifier": "Techcrunch",
-                    "type": "Other"
-                },
-                {
                     "identifier": "TW eCommerce: Auctions",
                     "type": "Other"
                 },
@@ -6294,14 +8008,6 @@
                     "type": "Other"
                 },
                 {
-                    "identifier": "Yahoo Sports: Rivals",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Yahoo Sports: Rivals Forums",
-                    "type": "Other"
-                },
-                {
                     "identifier": "Yahoo Video",
                     "type": "Other"
                 },
@@ -6331,29 +8037,6 @@
         }
     },
     {
-        "handle": "vdp",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Publicly Facing Assets Related to Stravito",
-                    "type": "Other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Assets that allow end user input (other than login)",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Stravito branded sites provided by partners or service providers",
-                    "type": "Other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "digitalocean",
         "bounty": 1,
         "active": 1,
@@ -6376,36 +8059,48 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://github.com/digitalocean/do-agent",
-                    "type": "Other"
+                    "identifier": "amd.digitalocean.com",
+                    "type": "Url"
                 },
                 {
-                    "identifier": "https://github.com/digitalocean/doctl",
-                    "type": "Other"
+                    "identifier": "https://github.com/digitalocean/do-agent",
+                    "type": "SourceCode"
                 },
                 {
                     "identifier": "https://github.com/digitalocean/droplet-agent",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "https://github.com/digitalocean/go-nbd",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "https://github.com/digitalocean/terraform-provider-digitalocean",
-                    "type": "Other"
+                    "type": "SourceCode"
                 },
                 {
                     "identifier": "marketplace.digitalocean.com",
                     "type": "Url"
                 },
                 {
-                    "identifier": "snapshooter.com",
-                    "type": "Url"
+                    "identifier": "*.snapshooter.com",
+                    "type": "Wildcard"
                 },
                 {
                     "identifier": "www.digitalocean.com",
                     "type": "Url"
+                },
+                {
+                    "identifier": "https://github.com/digitalocean/doctl",
+                    "type": "SourceCode"
+                },
+                {
+                    "identifier": "https://github.com/digitalocean/godo",
+                    "type": "SourceCode"
+                },
+                {
+                    "identifier": "https://github.com/digitalocean/pydo",
+                    "type": "SourceCode"
+                },
+                {
+                    "identifier": "https://github.com/digitalocean/terraform-provider-digitalocean",
+                    "type": "SourceCode"
+                },
+                {
+                    "identifier": "https://github.com/digitalocean/go-nbd",
+                    "type": "SourceCode"
                 },
                 {
                     "identifier": "digitaloceanmirrors.com",
@@ -6437,7 +8132,7 @@
                 },
                 {
                     "identifier": "https://github.com/digitalocean/do-markdownit",
-                    "type": "Other"
+                    "type": "SourceCode"
                 },
                 {
                     "identifier": "paperspace.com",
@@ -6505,6 +8200,177 @@
                     "type": "Wildcard"
                 }
             ]
+        }
+    },
+    {
+        "handle": "dropbox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Dropbox.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "sign.dropbox.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "HelloSign.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "dash.ai",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "dash.dropbox.com",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "api.dropbox.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "replay.dropbox.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "Dropbox Desktop Application",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "327630330",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "6450553960",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "1080074001",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "com.dropbox.dash",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "com.dropbox.android",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "HelloFax.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "docsend.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "app.Reclaim.ai",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "dropbox.com/paper",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.dropbox.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.dropboxer.net",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.dropboxforum.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.dropboxpartners.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.hellofax.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.docsend.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.reclaim.ai",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.helloworks.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.hellosign.com",
+                    "type": "Wildcard"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Boxcryptor",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Formswift",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Dropbox Passwords",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Dropbox Capture Windows Desktop App",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Dropbox Capture macOS Desktop App",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "com.dropbox.paper",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "1126623662",
+                    "type": "iOS"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "fastlane",
+        "bounty": 0,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Research",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "kbc-responsibledisclosure",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "All KBC Belgium assets",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -6657,10 +8523,6 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "wolt.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "corporate.wolt.com",
                     "type": "Url"
                 },
@@ -6678,6 +8540,10 @@
                 },
                 {
                     "identifier": "restaurant-api.wolt.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "wolt.com",
                     "type": "Url"
                 },
                 {
@@ -6711,6 +8577,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "links.wolt.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "press.wolt.com",
                     "type": "Url"
                 },
@@ -6728,178 +8598,32 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Ubisoft",
+                    "identifier": "Game Titles",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "First-party Ubisoft Web, Desktop and Mobile applications",
                     "type": "Other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "suppliers-ivalua.ubisoft.com",
+                    "identifier": "The Settlers Online game",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "forums.ubisoft.com",
                     "type": "Url"
                 },
                 {
                     "identifier": "ivalua.ubisoft.com",
                     "type": "Url"
+                },
+                {
+                    "identifier": "suppliers-ivalua.ubisoft.com",
+                    "type": "Url"
                 }
             ]
-        }
-    },
-    {
-        "handle": "henkel",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.joico.ca/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.eu/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.lat/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.com.br/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.com.au/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "*.donnad.it ",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "*.gliss.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.got2b.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.henkel-adhesives.cn",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "*.henkel-adhesives.com",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "*.henkelgroup.cloud",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.henkelgroup.net",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.labelleadresse.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.livecolour.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.persil.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.raqn.io",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "*.schwarzkopf.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.sexyhair.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.syoss.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "askteamclean scope including any TLD:*.askteamclean.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Authenticbeautyconcept scope including any TLD: *.authenticbeautyconcept.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Ceresit scope including any TLD:*.ceresit.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Indola scope including any TLD: *.indola.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Loctite websites - please check the \"In scope description\" for the URLs",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Our Brands in .cn TLD, please check 'In scope' for full listing of the URLs",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "pattex scope including any TLD:*.pattex.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "perwoll scope including any TLD:*.perwoll.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "prittworld scope including any TLD:*.prittworld.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Schwarzkopf scope including any TLD: *.schwarzkopf.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "schwarzkopfpalette scope including any TLD:*.schwarzkopfpalette.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "silan scope including any TLD:*.silan.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Somat scope including any TLD:*.somat.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "stmntgrooming scope including any TLD:*.stmntgrooming.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "Syoss scope including any TLD:*.syoss.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "taft scope including any TLD:*.taft.*",
-                    "type": "Other"
-                },
-                {
-                    "identifier": "teroson scope including any TLD:*.teroson.*",
-                    "type": "Other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -7009,16 +8733,8 @@
                     "type": "iOS"
                 },
                 {
-                    "identifier": "1584170510",
-                    "type": "iOS"
-                },
-                {
                     "identifier": "1616009566",
                     "type": "iOS"
-                },
-                {
-                    "identifier": "aqora.*",
-                    "type": "Wildcard"
                 },
                 {
                     "identifier": "aqora.naiad.*",
@@ -7033,10 +8749,6 @@
                     "type": "Android"
                 },
                 {
-                    "identifier": "com.loyaltyworks.wavinapp",
-                    "type": "Android"
-                },
-                {
                     "identifier": "com.RD3Digital.AmancoWavinRA",
                     "type": "Android"
                 },
@@ -7046,6 +8758,14 @@
                 }
             ],
             "out_of_scope": [
+                {
+                    "identifier": "1584170510",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "com.loyaltyworks.wavinapp",
+                    "type": "Android"
+                },
                 {
                     "identifier": "*.vectus.in",
                     "type": "Wildcard"
@@ -7078,15 +8798,23 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Web SDK",
-                    "type": "Other"
-                },
-                {
                     "identifier": "api.truelayer[-sandbox].com",
                     "type": "Url"
                 },
                 {
+                    "identifier": "api.mtls.truelayer[-sandbox].com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "auth.truelayer[-sandbox].com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "auth.mtls.truelayer[-sandbox].com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "app.truelayer[-sandbox].com",
                     "type": "Url"
                 },
                 {
@@ -7118,7 +8846,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "payouts.truelayer[-sandbox].com",
+                    "identifier": "payments-experience-api.truelayer[-sandbox].com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "user-authentication-api.truelayer[-sandbox].com",
                     "type": "Url"
                 },
                 {
@@ -7138,7 +8870,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "hpp.truelayer[-sandbox].com",
+                    "identifier": "sftp.reports.truelayer.com",
                     "type": "Url"
                 },
                 {
@@ -7156,6 +8888,14 @@
                 {
                     "identifier": "TrueLayer for WooCommerce (WordPress plugin)",
                     "type": "Other"
+                },
+                {
+                    "identifier": "shopify-admin.truelayer.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "shop-pay-app-api.truelayer.com",
+                    "type": "Url"
                 },
                 {
                     "identifier": "truelayer-signing",
@@ -7186,6 +8926,10 @@
                     "type": "Other"
                 },
                 {
+                    "identifier": "Web SDK",
+                    "type": "Other"
+                },
+                {
                     "identifier": "Rust SDK",
                     "type": "Other"
                 }
@@ -7201,6 +8945,10 @@
                 },
                 {
                     "identifier": "docs.truelayer.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "docs.houston.truelayer.com",
                     "type": "Url"
                 },
                 {
@@ -7220,11 +8968,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "statuspage.truelayer.com",
+                    "identifier": "support.truelayer.com",
                     "type": "Url"
                 },
                 {
-                    "identifier": "support.truelayer.com",
+                    "identifier": "status.truelayer.com",
                     "type": "Url"
                 },
                 {
@@ -7237,7 +8985,7 @@
     {
         "handle": "intergamma",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
@@ -7355,10 +9103,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Everything related to configurators, both on primary as other domains",
-                    "type": "Other"
-                },
-                {
                     "identifier": "*.configuratoren.nl/*",
                     "type": "Wildcard"
                 },
@@ -7377,6 +9121,10 @@
                 {
                     "identifier": "api.maakafspraak.karwei.nl",
                     "type": "Url"
+                },
+                {
+                    "identifier": "Everything related to configurators, both on primary as other domains",
+                    "type": "Other"
                 },
                 {
                     "identifier": "horrenconfigurator-fr.gamma.be",
@@ -7446,14 +9194,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.trouw.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* trouw.nl/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* trouw.nl/inloggen",
                     "type": "Wildcard"
                 },
@@ -7464,6 +9204,14 @@
                 {
                     "identifier": "* trouw.nl/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* trouw.nl/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.trouw.nl",
+                    "type": "Url"
                 }
             ]
         }
@@ -7499,7 +9247,19 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "appmiral.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "building-blocks.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "cm.com/app/messagingtrial/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cmcom.atlassian.net",
                     "type": "Url"
                 },
                 {
@@ -7527,18 +9287,6 @@
                     "type": "iOS"
                 },
                 {
-                    "identifier": "appmiral.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "building-blocks.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "cmcom.atlassian.net",
-                    "type": "Url"
-                },
-                {
                     "identifier": "com.cm.cashregister",
                     "type": "Android"
                 },
@@ -7549,6 +9297,10 @@
                 {
                     "identifier": "demo.globalticket.com/*",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://github.com/cmdotcom",
+                    "type": "Other"
                 }
             ],
             "out_of_scope": []
@@ -7557,192 +9309,43 @@
     {
         "handle": "arboniavdpprogram",
         "bounty": 0,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*-garant.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.arbonia-doors.ch",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.arbonia-doors.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.arbonia-glassysteme.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.arbonia.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.baduscho.at",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.dimoldura.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.doorit.de/",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.doorit.pl/",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.garant.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.interwand.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.invado.pl",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.joro.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.koralle.ch/",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.koralle.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.lignis.cz",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.paulceyrac.fr",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.rwdschlatter.ch/",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.skyfens.pl",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.tpo-holz.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.tuer.de",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://devpreview.tuerentool-pruem.de",
+                    "identifier": "https://pruem-digital.de",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://garant-schreinerwebsite.info",
+                    "identifier": "https://tpo-holz.de",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://hoteltuerenkompetenz.de",
+                    "identifier": "https://garant.de",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://premiumkante-pruem.de",
+                    "identifier": "https://joro.de",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://prm-data.de",
+                    "identifier": "https://arbonia-doors.ch",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://pruem-digital.de/",
+                    "identifier": "https://rwdschlatter.ch",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://pruem-schreinerwebsite.info",
+                    "identifier": "https://tuer.de",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://rwdschlatter-mtb.ch/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://schreiner-website.info",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://service.rwdschlatter.ch/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://tuerenhandbuch-pruem.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://tuerenhandbuch.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://tuerentool-pruem.de",
+                    "identifier": "https://tuerenhandbuch.garant.de",
                     "type": "Url"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://*.puertasdile.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "carlgoetz-ammerbuch.garant.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "fichtnerhof.garant.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "fries24-adlershof.tuer.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "ghz-neumarkt.garant.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://*.roziere.com/",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://*.roziere.fr/",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "joka-estenfeld.garant.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "pilipp-holzwerkstoffe.tuer.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "wicht24.garant.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "zeg-holz-eching.garant.de",
-                    "type": "Url"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -7752,20 +9355,24 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://viper.uat.vlerick.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www-tst.vlerick.com/en/",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.vlerick.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "193.190.150.0/24",
                     "type": "IpRange"
+                },
+                {
+                    "identifier": "https://my.vlerick.com/ ",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://viper.uat.vlerick.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www-tst.vlerick.com/en/",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": [
@@ -7795,6 +9402,81 @@
                 },
                 {
                     "identifier": "https://webform.vlerick.com",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "zabkagroup-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.zabka.pl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://delio.com.pl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://dietly.pl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://jush.pl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://lite.tech",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://maczfit.pl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://masterlifecrm.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://zabka.pl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://zabkagroup.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "Mobile applications",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.zabka-snrs.zabka.pl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "195.94.213.80 - 195.94.213.95",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "217.153.50.112 - 217.153.50.127",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "\u017babka Nano stores",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "zabka-snrs.zabka.pl",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://foodziki.zabka.pl",
                     "type": "Url"
                 }
             ]
